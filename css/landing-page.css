@@ -23,6 +23,11 @@ section.padding {
   padding-bottom: 7rem;
 }
 
+.sale {
+  color: #e60000;
+  font-weight: 500;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
