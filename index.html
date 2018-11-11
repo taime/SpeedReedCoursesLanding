@@ -24,6 +24,9 @@
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
 
+  <!-- gallery js -->
+  <script src="js/gallery.js"></script>
+
 </head>
 
 <body>
@@ -214,8 +217,6 @@
   </section>
 
 
-
-
   <!-- 5 Зачем ? -->
   <section class="features-icons bg-showcase-1 text-center">
     <div class="container">
@@ -255,21 +256,229 @@
 
 
 
-
-
-
   <!-- 6 Программа тренинга -->
-  <section class=" bg-showcase-1 text-center padding">
+  <section class=" bg-light  padding">
     <div class="container">
-      <div>
-        <h1 class="display-4">
-        </h1>
+      <div class="text-center">
+        <h1 class="display-4">Программа тренинга</h1>
       </div>
+      <br />
+      <div class="accordion" id="accordionExample">
+
+        <!-- 1 -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Часть 1 «Зачем нам вилка, если ложка есть?»
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body text-lg-left">
+              <ul>
+                <li>Виды чтения. Критерии медленного, скорочтения и фоточтения. Контексты применения.</li>
+                <li>Будьте готовы: «феномены, наблюдаемые при встраивании навыка быстрого чтения»</li>
+                <li>Суть навыка скорочтения – научная и методологическая основы</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Часть 2 «Ломать – не строить!»
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body text-lg-left">
+              <ul>
+                <li><span>Разрушение внутреннего проговора</span></li>
+                <li><span>Увеличение свободы, избавление от внутренних мыслей против «ЧИТАЮ БЫСТРО»</span></li>
+                <li><span>Приобретение навыка чтения небуквенного текста</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Часть 3 «Сделай сам!»
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body text-lg-left">
+              <ul>
+                <li><span>Расширение визуального</span><span> </span><span> </span><span>восприятия страницы</span></li>
+                <li><span>Выработка своей траектории скольжения</span><span> </span></li>
+                <li><span>Создание промежуточных «пит-стопов»</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                Часть 4 «Быстрей и ещё быстрее!»
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body text-lg-left">
+              <ul>
+                <li><span>МАКСИМАЛЬНЫЙ разгон скорости</span></li>
+                <li><span>Интенсивный прорыв в восприятии</span></li>
+                <li><span>Закрепление навыка чтения в удовольствие</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="false" aria-controls="collapseFive">
+                Часть 5 «Чем глубже в лес, тем толще понимание» (может быть тоньше, вместо толще, тогда хуже
+                фрейдоманский слой, но изящество добавляется?)
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body text-lg-left">
+              <ul>
+                <li><span>Марафонский забег</span></li>
+                <li><span>Выработка максимального соотношения скорости и понимания</span></li>
+                <li><span>Тестирование по результатам выхода из тренинга</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <!-- 7 Формат тренинга -->
+  <section class=" bg-showcase-1 padding">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="display-4">Формат тренинга</h1>
+      </div>
+
       <br />
 
       <div>
-
+        <p>
+          <ul class="list-group">
+            <li class="list-group-item"><span>2 дня </span></li>
+            <li class="list-group-item"><span>суббота воскресенье</span></li>
+            <li class="list-group-item"><span>просторный оборудованный зал</span><span> </span></li>
+            <li class="list-group-item"><span>с 10 до 20 (1,5 часа обед)</span></li>
+            <li class="list-group-item"><span>+ каждые 1,5 - 2 часа кофебрейки</span></li>
+            <li class="list-group-item"><span>книги и другие рабочие материалы, гостеприимная атмосфера и интересные
+                участники :) включены в стоимость тренинга</span></li>
+          </ul>
+        </p>
       </div>
+  </section>
+
+  <!-- 7 Фото -->
+  <section class="photo-carousel">
+    <div class="container">
+      <div class="row blog">
+        <div class="col-md-12">
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="#">
+                      <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                    </a>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+
+            </div>
+            <!--.carousel-inner-->
+          </div>
+          <!--.Carousel-->
+
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -278,6 +487,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Легендарный -->
+  <section class=" bg-dark text-center padding">
+    <div class="container">
+      <br />
+    </div>
+  </section>
 
 
 
@@ -420,6 +646,8 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
 
 </body>
 
