@@ -103,15 +103,16 @@
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text text-center">
           <h2>Оставить заявку</h2>
-          <form>
+          <form method="POST" action="https://formspree.io/t_karpick@bk.ru">
             <div class="form-group">
               <!-- <label for="exampleInputEmail1">Ваш Email или номер телефона</label> -->
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш email или телефон">
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Ваш email или телефон">
               <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
             <div class="form-group">
               <!-- <label for="exampleInputPassword1">ФИО</label> -->
-              <input type="name" class="form-control" id="exampleInputPassword1" placeholder="ФИО">
+              <input type="name" name="message" class="form-control" id="exampleInputPassword1" placeholder="ФИО">
             </div>
             <button type="submit" class="btn btn-primary">Оставить заявку</button>
           </form>
@@ -121,10 +122,12 @@
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text  text-center">
           <h2>Обратный звонок</h2>
-          <form>
+          <form method="POST" action="https://formspree.io/t_karpick@bk.ru">
             <div class="form-group">
               <!-- <label for="exampleInputEmail1">Ваш Email или номер телефона</label> -->
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш номер телефона">
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Ваш номер телефона">
+              <input type="hidden" name="message" value="Обратный звонок" />
             </div>
             <button type="submit" class="btn btn-dark">Обратный звонок</button>
           </form>
@@ -863,10 +866,11 @@
           <h2 class="mb-4">Готовы начать? Запишитесь прямо сейчас!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+          <form method="POST" action="https://formspree.io/t_karpick@bk.ru">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Введите свой Email">
+                <input type="email" name="email" class="form-control form-control-lg" placeholder="Введите свой Email" />
+                <input type="hidden" name="message" value="Заявка на учаестие" />
               </div>
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-primary">Записаться!</button>
