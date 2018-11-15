@@ -80,7 +80,7 @@
   </nav>
 
   <!-- Masthead -->
-  <header id="home" class="masthead text-white text-center mt-5">
+  <header id="home" class="masthead text-white text-center mt-4">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -89,18 +89,23 @@
             экспресс-методом"</h1>
           <h1 class="display-4" style="font-weight: 300; font-size:2.4rem">8-9 декабря, Москва</h1>
         </div>
-        <!-- <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-6">
-                  <button type="submit" class="btn btn-block btn-lg btn-dark">Обратный Звонок!</button>
-                </div>
-                <div class="col-12 col-md-6">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Оставить заявку!</button>
-                </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <br />
+          <form>
+            <div class="form-row">
+
+              <div class="col-12 col-md-6">
+                <button type="submit" onclick="goToAnchor('register')" class="btn btn-block btn-lg btn-primary">Оставить
+                  заявку!
+                </button>
               </div>
-            </form>
-          </div> -->
+              <div class="col-12 col-md-6">
+                <button type="submit" onclick="goToAnchor('ask-phone-call')" class="btn btn-block btn-lg btn-dark">Обратный
+                  Звонок!</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </header>
@@ -303,7 +308,7 @@
           </form>
         </div>
       </div>
-      <div class="row no-gutters">
+      <div id="ask-phone-call" class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text  text-center">
           <h2>Обратный звонок</h2>
@@ -917,6 +922,8 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="vendor/scrolling-nav/js/scrolling-nav.js"></script>
+
+  <script src="js/global.js"></script>
 
 
 
