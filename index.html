@@ -29,38 +29,58 @@
 <body>
 
   <!-- Navigation -->
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Hidden brand</a>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Начало <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#home">Начало</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Оставить заявку</a>
+          <a class="nav-link js-scroll-trigger" href="#why">Зачем?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Для кого?</a>
+          <a class="nav-link js-scroll-trigger" href="#whom">Для&nbsp;кого?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Программа тренинга</a>
+          <a class="nav-link" js-scroll-trigger href="#uniq">Уникальность</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Отзывы</a>
+          <a class="nav-link" js-scroll-trigger href="#result">Результаты</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Контакты</a>
+          <a class="nav-link" js-scroll-trigger href="#register">Заявка</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#price">Стоимость</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#schedule">Программа</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#subject">Формат</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#video">Видео</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#about-trainer">О&nbsp;тренере</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#video-comments">Отзывы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" js-scroll-trigger href="#contacts">Контакты</a>
         </li>
       </ul>
     </div>
-  </nav> -->
+  </nav>
 
   <!-- Masthead -->
-  <header id="home" class="masthead text-white text-center">
+  <header id="home" class="masthead text-white text-center mt-5">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -84,7 +104,6 @@
       </div>
     </div>
   </header>
-
 
 
   <!-- 5 Зачем ? -->
@@ -123,8 +142,6 @@
       </div>
     </div>
   </section>
-
-
 
 
   <!-- Кому полезен -->
@@ -198,7 +215,6 @@
       </div>
     </div>
   </section>
-
 
 
   <!-- Уникальность -->
@@ -539,7 +555,7 @@
 
 
   <!-- 8 о тренере -->
-  <section class="bg-light padding">
+  <section id="about-trainer" class="bg-light padding">
     <div class="container">
       <div class="text-center col-lg-12">
         <h1 class="display-4">О тренере</h1><br />
@@ -702,7 +718,7 @@
 
 
   <!-- 8 Контакты организаторов -->
-  <section class=" bg-light padding">
+  <section id="contacts" class="bg-light padding">
     <div class="container">
       <div class="text-center ">
         <h1 class="display-4">Контакты организаторов</h1><br />
@@ -881,6 +897,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="vendor/scrolling-nav/js/scrolling-nav.js"></script>
 
 
 
