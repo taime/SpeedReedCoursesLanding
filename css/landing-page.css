@@ -55,6 +55,20 @@ section.padding {
   text-align: left;
 }
 
+.fade-in {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+
+.fade-out {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s 1s, opacity 1s linear;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
