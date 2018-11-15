@@ -23,11 +23,10 @@ section.padding {
 
 .sale {
   color: rgb(230, 0, 0);
-  font-weight: 500
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
-
   .display-3 {
     font-size: 2.6rem;
     font-weight: 300;
@@ -41,22 +40,18 @@ section.padding {
   }
 
   .display-5 {
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
   }
 }
 
-
-
 .program {
   .btn {
     white-space: normal;
     text-align: left;
-
   }
 }
-
 
 .fade-in {
   visibility: visible;
@@ -68,4 +63,26 @@ section.padding {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.gi-2x {
+  font-size: 2em;
+}
+.gi-3x {
+  font-size: 3em;
+}
+.gi-4x {
+  font-size: 4em;
+}
+.gi-5x {
+  font-size: 5em;
+}
+.gi-6x {
+  font-size: 6em;
+}
+.gi-7x {
+  font-size: 7em;
+}
+.gi-8x {
+  font-size: 8em;
 }
