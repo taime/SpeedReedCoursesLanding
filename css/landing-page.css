@@ -118,6 +118,13 @@ section.padding {
   width: auto !important;
 }
 
+@media (min-width: 1024px) {
+  .table-nonfluid {
+    width: auto !important;
+    min-width: 400px;
+  }
+}
+
 .bg-dark {
   color: white;
 }
