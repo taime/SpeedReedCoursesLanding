@@ -32,6 +32,12 @@ section.padding {
   line-height: 1.2;
 }
 
+.display-6 {
+  font-size: 2.0rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 @media (max-width: 768px) {
   .display-3 {
     font-size: 2.6rem;
@@ -47,6 +53,12 @@ section.padding {
 
   .display-5 {
     font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-6 {
+    font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.2;
   }
@@ -97,4 +109,13 @@ section.padding {
 
 .gi-8x {
   font-size: 8em;
+}
+
+.table-nonfluid {
+  width: auto !important;
+  // min-width: 400px;
+}
+
+.bg-dark {
+  color: white;
 }
