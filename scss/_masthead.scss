@@ -7,7 +7,7 @@ header.masthead {
   background: linear-gradient(to bottom right, #434343, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  // background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/bg-masthead.jpg') no-repeat center center;
   @include background-cover;
   padding-top: 6rem;
   padding-bottom: 4rem;
