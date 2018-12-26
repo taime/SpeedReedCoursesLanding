@@ -134,7 +134,7 @@ header.masthead {
   background-color: #343a40;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 4rem;
 }
 
@@ -154,7 +154,7 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 6rem;
+    padding-top: 8rem;
     padding-bottom: 6rem;
   }
   header.masthead h1 {
