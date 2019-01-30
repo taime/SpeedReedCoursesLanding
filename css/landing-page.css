@@ -259,11 +259,11 @@ header.masthead h1 {
 }
 
 .testimonials .testimonial-item {
-  max-width: 14rem;
+  max-width: 16rem;
 }
 
 .testimonials .testimonial-item img {
-  max-width: 8rem;
+  max-width: 14rem;
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
