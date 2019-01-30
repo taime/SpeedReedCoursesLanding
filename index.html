@@ -22,6 +22,11 @@
   <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i" rel="stylesheet">
 
+  <!-- Owl carousel -->
+  <link rel="stylesheet" href="vendor/owlCarousel/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="vendor/owlCarousel/dist/assets/owl.theme.default.css" />
+
+
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
 
@@ -569,69 +574,48 @@
 
     <!-- 7 Фото -->
     <div class="container">
-
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row text-center text-lg-left">
-              <div class="row">
-                <div class="col-3 col-md-3">
-                  <a href="img/photos/1.JPG" target="_blank" class="d-block h-100">
-                    <img class="img-fluid img-thumbnail" src="img/photos/1.JPG" alt="">
-                  </a>
-                </div>
-                <div class="col-3 col-md-3">
-                  <a href="img/photos/2.JPG" target="_blank" class="d-block h-100">
-                    <img class="img-fluid img-thumbnail" src="img/photos/2.JPG" alt="">
-                  </a>
-                </div>
-                <div class="col-3 col-md-3">
-                  <a href="img/photos/3.JPG" target="_blank" class="d-block h-100">
-                    <img class="img-fluid img-thumbnail" src="img/photos/3.JPG" alt="">
-                  </a>
-                </div>
-                <div class="col-3 col-md-3">
-                  <a href="img/photos/4.JPG" target="_blank" class="d-block h-100">
-                    <img class="img-fluid img-thumbnail" src="img/photos/4.JPG" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row text-center text-lg-left">
-              <div class="col-3 col-md-3">
-                <a href="img/photos/5.JPG" target="_blank" class="d-block h-100">
-                  <img class="img-fluid img-thumbnail" src="img/photos/5.JPG" alt="">
-                </a>
-              </div>
-              <div class="col-3 col-md-3">
-                <a href="img/photos/6.JPG" target="_blank" class="d-block h-100">
-                  <img class="img-fluid img-thumbnail" src="img/photos/6.JPG" alt="">
-                </a>
-              </div>
-              <div class="col-3 col-md-3">
-                <a href="img/photos/7.JPG" target="_blank" class="d-block h-100">
-                  <img class="img-fluid img-thumbnail" src="img/photos/7.JPG" alt="">
-                </a>
-              </div>
-              <div class="col-3 col-md-3">
-                <a href="img/photos/8.JPG" target="_blank" class="d-block h-100">
-                  <img class="img-fluid img-thumbnail" src="img/photos/8.JPG" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-
+      <div class="owl-carousel owl-theme">
+        <div>
+          <a href="img/photos/1.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/1.JPG" alt="">
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Перд.</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">След.</span>
-        </a>
+        <div>
+          <a href="img/photos/2.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/2.JPG" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="img/photos/3.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/3.JPG" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="img/photos/4.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/4.JPG" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="img/photos/5.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/5.JPG" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="img/photos/6.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/6.JPG" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="img/photos/7.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/7.JPG" alt="">
+          </a>
+        </div>
+        <div>
+          <a href="img/photos/8.JPG" target="_blank" class="d-block h-100">
+            <img class="img-fluid img-thumbnail" src="img/photos/8.JPG" alt="">
+          </a>
+        </div>
+
       </div>
     </div>
     <!-- /.container -->
@@ -722,96 +706,88 @@
       <div class="text-center">
         <h1 class="display-4">Отзывы</h1><br />
       </div>
-      <div id="carouselVideoComments" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
 
-          <div class="carousel-item active">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_2z7dQUSKRg" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
+      <div class="video-comments-carousel owl-carousel owl-theme">
 
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lm9VFqFCF0Q" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
 
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cB02gUHvw3s" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LjdUSbNKn2g" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t0TG5Raezbs" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GDakPKnVz1c" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eoe7gnXonWk" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QeeJadkjXMI" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JJtHC62h_Z8" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
-          <div class="carousel-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IV_7EF54RkA" frameborder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!-- /carousel-item -->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_2z7dQUSKRg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <a class="carousel-control-prev" href="#carouselVideoComments" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselVideoComments" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lm9VFqFCF0Q" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cB02gUHvw3s" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LjdUSbNKn2g" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t0TG5Raezbs" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GDakPKnVz1c" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eoe7gnXonWk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QeeJadkjXMI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JJtHC62h_Z8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IV_7EF54RkA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- /carousel-item -->
       </div>
+
       <!-- /carousel -->
 
     </div>
@@ -823,88 +799,69 @@
     <div class="container">
       <h2 class="mb-5">Что о нас говорят люди...</h2>
 
-
-      <div id="carouselComments" class="carousel slide" data-ride="carousel">
-        <!-- <ol class="carousel-indicators">
-              <li data-target="#carouselComments" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselComments" data-slide-to="1"></li>
-              <li data-target="#carouselComments" data-slide-to="2"></li>
-            </ol> -->
-
-        <div class="carousel-inner">
-
-
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-                  <h5>Лариса Балабанова</h5>
-                  <p class="font-weight-light mb-0">"Татьяна, благодарю вас 👏 за этот полезный тренинг! 👌
-                    Теперь я читаю больше книг, и меньше трачу время на это 👍
-                    В первую неделю я прочитала 500 страниц за 3.30ч, 😇 раньше бы я читала эту книгу минимум неделю😂.
-                    Благодарю вас ..."</p>
-                  <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
-                    data-placement="top" data-content="Татьяна, благодарю вас 👏 за этот полезный тренинг! 👌
+      <div class="row">
+        <div class="txt-comments-carousel owl-carousel owl-theme">
+          <div class="">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Лариса Балабанова</h5>
+              <p class="font-weight-light mb-0">"Татьяна, благодарю вас 👏 за этот полезный тренинг! 👌
+                Теперь я читаю больше книг, и меньше трачу время на это 👍
+                В первую неделю я прочитала 500 страниц за 3.30ч, 😇 раньше бы я читала эту книгу минимум неделю😂.
+                Благодарю вас ..."</p>
+              <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
+                data-placement="top" data-content="Татьяна, благодарю вас 👏 за этот полезный тренинг! 👌
               Теперь я читаю больше книг, и меньше трачу время на это 👍
               В первую неделю я прочитала 500 страниц за 3.30ч, 😇 раньше бы я читала эту книгу минимум неделю😂.
               Благодарю вас 🔆 и желаю вам научить, как можно больше людей этому нужному и полезному навыку 😍👍">
-                    Показать полностью
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-                  <h5>Екатерина Родина</h5>
-                  <p class="font-weight-light mb-0">"Очень крутой тренинг: 😱😍
-                    Нереально прокачивает мозг.
-                    Я даже не представляла, что могу намного больше и лучше! Действительно почувствовала, что мозг
-                    можно
-                    накачать как мышцы в спортзале за счет всех выполняемых ...
-                    "</p>
-                  <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
-                    data-placement="top" data-content="Очень крутой тренинг: 😱😍
+                Показать полностью
+              </button>
+            </div>
+          </div>
+          <div class="">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Екатерина Родина</h5>
+              <p class="font-weight-light mb-0">"Очень крутой тренинг: 😱😍
+                Нереально прокачивает мозг.
+                Я даже не представляла, что могу намного больше и лучше! Действительно почувствовала, что мозг
+                можно
+                накачать как мышцы в спортзале за счет всех выполняемых ...
+                "</p>
+              <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
+                data-placement="top" data-content="Очень крутой тренинг: 😱😍
                 Нереально прокачивает мозг.
                 Я даже не представляла, что могу намного больше и лучше! Действительно почувствовала, что мозг можно
                 накачать как мышцы в спортзале за счет всех выполняемых на тренинге упражнений. Очень советую Всем, кто
                 хочет повысить не только скорость чтения, но и вообще уровень своей эффективности и работоспособности!
                 Стала любить себя и свой мозг ещё сильнее 😄❤️">
-                    Показать полностью
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-                  <h5>Роман Яковенко</h5>
-                  <p class="font-weight-light mb-0">"Танюша, респект Вам пожизненно!💪👍 После Вашего тренинга в
-                    Краснодаре я
-                    просто "проглатыааю" книги!!📖📚
-                    Но вот у меня один нескромный вопрос: акогда будет Ваш тренинг по НЛП?🤔"</p>
-                </div>
-              </div>
-
+                Показать полностью
+              </button>
             </div>
-            <!-- /row -->
           </div>
-          <!-- /carousel-item -->
+          <div class="">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              <h5>Роман Яковенко</h5>
+              <p class="font-weight-light mb-0">"Танюша, респект Вам пожизненно!💪👍 После Вашего тренинга в
+                Краснодаре я
+                просто "проглатыааю" книги!!📖📚
+                Но вот у меня один нескромный вопрос: акогда будет Ваш тренинг по НЛП?🤔"</p>
+            </div>
+          </div>
 
+          <div class="">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-4.jpg" alt="">
+              <h5>Станислав Лысенко</h5>
+              <p class="font-weight-light mb-0">"У меня были большие сомнения по поводу того что скорочтение мне
+                необходимо и оно сделает мою жизнь лучше. Но ведь нас окружает много информации, в наш высоко
+                технологичный век большое значение имеет то как быстро...
+                "
+              </p>
 
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/testimonials-4.jpg" alt="">
-                  <h5>Станислав Лысенко</h5>
-                  <p class="font-weight-light mb-0">"У меня были большие сомнения по поводу того что скорочтение мне
-                    необходимо и оно сделает мою жизнь лучше. Но ведь нас окружает много информации, в наш высоко
-                    технологичный век большое значение имеет то как быстро...
-                    "
-                  </p>
-
-                  <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
-                    data-placement="top" data-content="У меня были большие сомнения по поводу того что скорочтение мне
+              <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
+                data-placement="top" data-content="У меня были большие сомнения по поводу того что скорочтение мне
                       необходимо и оно сделает мою жизнь лучше. Но ведь нас окружает много информации, в наш высоко
                       технологичный век большое значение имеет то как быстро ты перевариваешь полученные знания. Поэтому я
                       решил повти на этот курс. Назвать его просто занятием по увеличению скорости чтения будет крайне
@@ -918,64 +875,46 @@
                       огромные знания для того чтобы мы получили максимальный результат. Я ей очень благодарен за этот тренинг.
                       Я благодарен обоим Татьянам, организатору который меня уговорил прочти этот курс и учителю который
                       наделил меня бесценными знаниями.">
-                    Показать полностью
-                  </button>
+                Показать полностью
+              </button>
 
 
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/testimonials-5.jpg" alt="">
-                  <h5>Дяктерев Виктор</h5>
-                  <p class="font-weight-light mb-0">"Прошёл тренинг скорочтение. С гордостью могу сказать, что за два
-                    дня стал читать быстрее в 4 раза. Шикарный тренер, знающий своё дело, грамотные органтзаторы,
-                    обеспечившие мероприятие на высочайшем уровне и...
-                    "</p>
-                  <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
-                    data-placement="top" data-content="Прошёл тренинг скорочтение. С гордостью могу сказать, что за два дня стал читать быстрее в 4 раза. Шикарный тренер, знающий своё дело, грамотные органтзаторы, обеспечившие мероприятие на высочайшем уровне и моя упорная работа позволили мне добиться высоких результатов. Уверен, что за месяц самостоятельной работы я разгонюсь до скорости более 5000 знаков в минуту">
-                    Показать полностью
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/testimonials-6.jpg" alt="">
-                  <h5>Папихин Алексей</h5>
-                  <p class="font-weight-light mb-0">"Урррр, совершенно дивный курс. Отныне, один из самых полезных
-                    козырей в моем рукаве - техники скорочтения. Как выяснилось - умение быстрее читать и запоминать -
-                    лишь косвенная выгода. Тренинг напрямую...
-                    "</p>
-
-                  <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
-                    data-placement="top" data-content="Урррр, совершенно дивный курс. Отныне, один из самых полезных козырей в моем рукаве - техники скорочтения. Как выяснилось - умение быстрее читать и запоминать - лишь косвенная выгода. Тренинг напрямую влияет на развитие мышления, запоминания и концентрации внимания. Огромное спасибо Танюше Карпицкой за то, что сделала нас лучшей версией себя. Теперь будем успевать быть в огрооомном потоке информации, который, с каждым днем, становится все больше. А также огромная благодарность очаровательному тренеру за то, что теперь я получаю еще большее удовольствие от чтения, чем раньше. Оно стало увлекательнее, ярче и в разы интереснее. Прямо как в детстве. Никогда бы не подумал, что, открывая книгу, можно вместо букв и строчек видеть красивые фильмы в 3D.">
-                    Показать полностью
-                  </button>
-
-                </div>
-              </div>
             </div>
-            <!-- /row -->
           </div>
-          <!-- /carousel-item -->
+          <div class="">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-5.jpg" alt="">
+              <h5>Дяктерев Виктор</h5>
+              <p class="font-weight-light mb-0">"Прошёл тренинг скорочтение. С гордостью могу сказать, что за два
+                дня стал читать быстрее в 4 раза. Шикарный тренер, знающий своё дело, грамотные органтзаторы,
+                обеспечившие мероприятие на высочайшем уровне и...
+                "</p>
+              <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
+                data-placement="top" data-content="Прошёл тренинг скорочтение. С гордостью могу сказать, что за два дня стал читать быстрее в 4 раза. Шикарный тренер, знающий своё дело, грамотные органтзаторы, обеспечившие мероприятие на высочайшем уровне и моя упорная работа позволили мне добиться высоких результатов. Уверен, что за месяц самостоятельной работы я разгонюсь до скорости более 5000 знаков в минуту">
+                Показать полностью
+              </button>
+            </div>
+          </div>
+          <div class="">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-6.jpg" alt="">
+              <h5>Папихин Алексей</h5>
+              <p class="font-weight-light mb-0">"Урррр, совершенно дивный курс. Отныне, один из самых полезных
+                козырей в моем рукаве - техники скорочтения. Как выяснилось - умение быстрее читать и запоминать -
+                лишь косвенная выгода. Тренинг напрямую...
+                "</p>
 
+              <button type="button" class="btn btn-link btn-sm" data-container="body" data-toggle="popover"
+                data-placement="top" data-content="Урррр, совершенно дивный курс. Отныне, один из самых полезных козырей в моем рукаве - техники скорочтения. Как выяснилось - умение быстрее читать и запоминать - лишь косвенная выгода. Тренинг напрямую влияет на развитие мышления, запоминания и концентрации внимания. Огромное спасибо Танюше Карпицкой за то, что сделала нас лучшей версией себя. Теперь будем успевать быть в огрооомном потоке информации, который, с каждым днем, становится все больше. А также огромная благодарность очаровательному тренеру за то, что теперь я получаю еще большее удовольствие от чтения, чем раньше. Оно стало увлекательнее, ярче и в разы интереснее. Прямо как в детстве. Никогда бы не подумал, что, открывая книгу, можно вместо букв и строчек видеть красивые фильмы в 3D.">
+                Показать полностью
+              </button>
 
+            </div>
+          </div>
         </div>
-
-
-        <a class="carousel-control-prev" href="#carouselComments" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselComments" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <!-- /owl carousel -->
       </div>
-      <!-- /carousel -->
-
-
-
+      <!-- /row -->
     </div>
   </section>
 
@@ -1084,6 +1023,10 @@
   </section>
 
 
+
+
+
+
   <!-- Footer -->
   <footer class="footer bg-light">
     <div class="container">
@@ -1136,8 +1079,22 @@
     </div>
   </footer>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/owlCarousel/dist/owl.carousel.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
@@ -1153,6 +1110,51 @@
       })
     })
   </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1600: {
+            items: 4,
+            nav: false,
+            loop: false
+          }
+        }
+      });
+
+      $('.video-comments-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+        }
+      });
+
+
+    });
+  </script>
+
 
 
   <!-- Yandex.Metrika counter -->
@@ -1187,6 +1189,7 @@
   </script> <noscript>
     <div><img src="https://mc.yandex.ru/watch/51158855" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript> <!-- /Yandex.Metrika counter -->
+
 </body>
 
 </html>
