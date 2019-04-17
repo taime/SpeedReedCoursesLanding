@@ -23,6 +23,10 @@ h6 {
   font-weight: 700;
 }
 
+.smooth {
+  transition: all 0.3s ease-in-out;
+}
+
 section.padding {
   padding-top: 7rem;
   padding-bottom: 7rem;
